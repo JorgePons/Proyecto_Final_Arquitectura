@@ -17,7 +17,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
-        hp = 10;
+        hp = 4;
         anim = GetComponent<Animator>();
     }
 
