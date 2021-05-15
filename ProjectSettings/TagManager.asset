@@ -12,6 +12,7 @@ TagManager:
   - Bullet
   - Wall
   - Health
+  - EnemyPool
   layers:
   - Default
   - TransparentFX
