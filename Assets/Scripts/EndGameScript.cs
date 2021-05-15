@@ -11,6 +11,7 @@ public class EndGameScript : MonoBehaviour
     public static EndGameScript sharedInstance;
 
     public GameObject victoryPanel;
+    public GameObject scorePanel;
     public GameObject defeatPanel;
 
     private void Awake()
@@ -22,6 +23,7 @@ public class EndGameScript : MonoBehaviour
     {
         ScoreManager.NewRecord();
         victoryPanel.SetActive(true);
+        scorePanel.SetActive(true);
         Time.timeScale = 0;
     }
 

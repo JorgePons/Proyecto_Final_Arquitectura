@@ -13,6 +13,7 @@ TagManager:
   - Wall
   - Health
   - EnemyPool
+  - Rank
   layers:
   - Default
   - TransparentFX
